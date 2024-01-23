@@ -8,8 +8,15 @@ public class Course
 
     List<Student> students;
     List<Assignment> assignments;
+    List<Announcement> announcements;
 
     Instructor instructor;
+    
+    
+    public int getId() 
+    {
+        return this.id;
+    }
     
     public Course() 
     {
@@ -26,10 +33,12 @@ public class Course
     {
         return this.students;
     }
-    public int getId() 
+    
+    public List<Announcement> getAnnouncements() 
     {
-        return this.id;
+        return this.announcement;
     }
+    
     public int getCourseNumber() 
     {
         return this.courseNumber;
