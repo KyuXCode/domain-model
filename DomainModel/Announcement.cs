@@ -6,6 +6,7 @@ public class Announcement
 
     string title;
     string announcement;
+    string date;
 
     string author;
 
@@ -20,5 +21,10 @@ public class Announcement
     public void getAnnouncement()
     {
         return this.announcement;
+    }
+
+    public string getDate()
+    {
+        return this.date;
     }
 }
