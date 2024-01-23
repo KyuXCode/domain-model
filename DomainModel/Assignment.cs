@@ -4,52 +4,49 @@ public class Assignment
 {
     int id;
     string description;
-    
-    // Actual points for the assignment 
     int points;
     string dueDate;
-    
-    int grade;
+    int score;
 
-    bool isComplete;
+    bool isCompleted;
 
-    public void getGrade() 
+    public void grade(int grade)
     {
-        return this.grade;
+        this.score = grade;
     }
-    public int getId() 
+    public int getId()
     {
         return this.id;
     }
 
-    public string getDescription() 
+    public string getDescription()
     {
         return this.description;
     }
-    public int getPoints() 
+    public int getPoints()
     {
         return this.points;
     }
-    public string getDueDate() 
+    public string getDueDate()
     {
         return this.dueDate;
     }
-    public int getScore() 
+    public int getScore()
     {
         return this.score;
     }
 
     public bool getStatus()
     {
-        return this.isComplete;
+        return this.isCompleted;
     }
 
-    public string remove() 
+    public string remove()
     {
         return "remove";
     }
 
-    public string update() 
+    public string update()
     {
         return "update";
     }
