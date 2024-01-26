@@ -15,12 +15,12 @@ classDiagram
     - List<Announcement> announcements
     
     + getId() : int
-    + getCourseNumber() : string
-    + getCourseName() : int
-    + getInstructor() : Instructor
-    + getAssignments() : List<Assignment>
-    + getStudents() : List<Student>
-    + getAnnouncements() : List<Announcement>
+    + getCourseNumber(): string
+    + getCourseName(): int
+    + getInstructor(): Instructor
+    + getAssignments(): List<Assignment>
+    + getStudents(): List<Student>
+    + getAnnouncements(): List<Announcement>
   }
   
   class Announcement{
@@ -30,11 +30,11 @@ classDiagram
     - string date
     - string author
     
-    + getId() : int
-    + getTitle() : string
-    + getAnnouncement() : string
-    + getDate() : string
-    + getAuthor() : string
+    + getId(): int
+    + getTitle(): string
+    + getAnnouncement(): string
+    + getDate(): string
+    + getAuthor(): string
   }
   
   class Student{
@@ -44,11 +44,11 @@ classDiagram
     - string email
     + List<Course> classes
     
-    + getId() : int
-    + getfirstName() : string
-    + getLastName() : string
-    + getEmail() : string
-    + checkGrades() : int
+    + getId(): int
+    + getfirstName(): string
+    + getLastName(): string
+    + getEmail(): string
+    + checkGrades(): int
   }
   
   class Instructor{
@@ -57,10 +57,10 @@ classDiagram
     - string lastName
     - string email
     
-    + getId() : int
-    + getfirstName() : string
-    + getLastName() : string
-    + getEmail() : string
+    + getId(): int
+    + getfirstName(): string
+    + getLastName(): string
+    + getEmail(): string
   }
   
   class Assignment{
@@ -71,13 +71,13 @@ classDiagram
     - float score
     - bool isCompleted
     
-    + grade() : float
-    + getId() : int
-    + getDescription() : string
-    + getPoints() : int
-    + getDueDate() : string
-    + getScore() : float
-    + getStatus() : bool
+    + grade(): float
+    + getId(): int
+    + getDescription(): string
+    + getPoints(): int
+    + getDueDate(): string
+    + getScore(): float
+    + getStatus(): bool
   } 
 
 ```
