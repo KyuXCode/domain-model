@@ -2,18 +2,14 @@ namespace DomainModel;
 
 public class Assignment
 {
-    int id;
-    string description;
-    int points;
-    string dueDate;
-    int score;
+    private int id;
+    private string description;
+    private int points;
+    private string dueDate;
+    private float score;
 
     bool isCompleted;
-
-    public void grade(int grade)
-    {
-        this.score = grade;
-    }
+    
     public int getId()
     {
         return this.id;
@@ -31,7 +27,7 @@ public class Assignment
     {
         return this.dueDate;
     }
-    public int getScore()
+    public float getScore()
     {
         return this.score;
     }
@@ -39,15 +35,5 @@ public class Assignment
     public bool getStatus()
     {
         return this.isCompleted;
-    }
-
-    public string remove()
-    {
-        return "remove";
-    }
-
-    public string update()
-    {
-        return "update";
     }
 }

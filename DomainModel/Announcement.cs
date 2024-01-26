@@ -2,23 +2,23 @@ namespace DomainModel;
 
 public class Announcement
 { 
-    int id;
+    private int id;
 
-    string title;
-    string announcement;
-    string date;
+    private string title;
+    private string announcement;
+    private string date;
 
-    string author;
+    private string author;
 
-    public void getId()
+    public int getId()
     {
         return this.id;
     }
-    public void getTitle()
+    public string getTitle()
     {
         return this.title;
     }
-    public void getAnnouncement()
+    public Announcement getAnnouncement()
     {
         return this.announcement;
     }
@@ -26,5 +26,10 @@ public class Announcement
     public string getDate()
     {
         return this.date;
+    } 
+    
+    public string getAuthor()
+    {
+        return this.author;
     }
 }

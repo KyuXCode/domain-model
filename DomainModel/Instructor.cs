@@ -3,10 +3,10 @@ namespace DomainModel;
 public class Instructor
 {
     
-        int id;
-        string firstName;
-        string lastName;
-        string email;
+        private int id;
+        private string firstName;
+        private string lastName;
+        private string email;
 
         public int getId() 
         {

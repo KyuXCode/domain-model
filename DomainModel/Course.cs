@@ -2,15 +2,15 @@
 
 public class Course
 { 
-    int id;
-    int courseNumber;
-    string courseName;
+    private int id;
+    private int courseNumber;
+    private string courseName;
 
-    List<Student> students;
-    List<Assignment> assignments;
-    List<Announcement> announcements;
+    private List<Student> students;
+    private List<Assignment> assignments;
+    private List<Announcement> announcements;
 
-    Instructor instructor;
+    private Instructor instructor;
     
     
     public int getId() 

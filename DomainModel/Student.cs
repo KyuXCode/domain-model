@@ -2,12 +2,12 @@ namespace DomainModel;
 
 public class Student
 {
-    int id;
-    string firstName;
-    string lastName;
-    string email;
+    private int id;
+    private string firstName;
+    private string lastName;
+    private string email;
 
-    List<Course> classes;   
+    public List<Course> classes;   
     
     public int getId()
     {
