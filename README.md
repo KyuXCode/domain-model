@@ -1,6 +1,6 @@
 ```mermaid
 classDiagram
-  Course "*" -- "*" Student
+  Course "*" -- "1..*" Student
   Course "*" -- "1" Instructor
   Course "1" -- "0..*" Announcement
   Course "1" -- "0..*"  Assignment 
